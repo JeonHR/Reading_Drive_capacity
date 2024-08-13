@@ -1,0 +1,7 @@
+<Config>
+    <Drives>
+        <Drive>C:</Drive>
+        <Drive>D:</Drive>
+    </Drives>
+    <CSVPath>C:/Users/hyeongryeol.jeon/Desktop/HPA.csv</CSVPath>
+</Config>

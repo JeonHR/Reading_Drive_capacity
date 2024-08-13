@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <FTPServer>10.86.254.61</FTPServer>
+    <Username>eagle</Username>
+    <Password>eagle123</Password>
+    <RemoteFilePath>\Eagle\ENG_DATA\PTE DATA\HR\New folder\HPA.csv</RemoteFilePath>
+    <LocalFilePath>C:\Users\hyeongryeol.jeon\Desktop\ssss\HPA.csv</LocalFilePath>
+</Configuration>
