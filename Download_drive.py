@@ -15,9 +15,9 @@ class SimpleVisualizationTool(QWidget):
         self.layout = QVBoxLayout()
 
         self.table = QTableWidget(self)
-        self.layout.addWidget(self.table)
+        self.layout.addWidget(self.table) ## Table Data 추가
 
-        self.setLayout(self.layout)
+        self.setLayout(self.layout) 
         
         # 창 크기 조정
         self.resize(1200, 600)  # 초기 창 크기 설정 (폭, 높이)
@@ -26,7 +26,7 @@ class SimpleVisualizationTool(QWidget):
 
     def read_config_from_xml(self, xml_file_path):
         try:
-            tree = ET.parse(xml_file_path)
+            tree = ET.parse(xml_file_path) ## XML Data Read
             root = tree.getroot()
 
             ftp_server = root.find('FTPServer').text
@@ -46,8 +46,8 @@ class SimpleVisualizationTool(QWidget):
             ftp.login(user=username, passwd=password)
 
             # 파일 다운로드
-            with open(local_path, 'wb') as file:
-                ftp.retrbinary(f'RETR {remote_path}', file.write)
+            with open(local_path, 'wb') as file:  ## local path 의 파일을 지정하는 말
+                ftp.retrbinary(f'RETR {remote_path}', file.write) ## retrbinary FTP 로 다운 받기 위한 명령어
 
             ftp.quit()
         except Exception as e:
