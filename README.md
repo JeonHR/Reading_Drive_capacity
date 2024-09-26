@@ -7,6 +7,7 @@ Read capacity of all equipment
 <img width="552" alt="image" src="https://github.com/user-attachments/assets/6fa431f2-ab51-45fa-9763-0975a5cf2e98">
 
 #### Application Simulation
+<img width="1203" alt="image" src="https://github.com/user-attachments/assets/25090129-d95e-4f44-9744-1029c568fc7c">
 
 
 #### Knowledge
